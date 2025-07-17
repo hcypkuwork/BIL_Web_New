@@ -35,9 +35,7 @@ redirect_from:
         </ul>
         
         <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/tiejun-huang.html">
-          Professor Panagiotis Angeloudis leads TSL and is part of the Centre for Transport Engineering & Modelling at Imperial.
-          His research addresses challenges at the intersection of transportation technology and operations management.
-          &nbsp;&nbsp;&nbsp;
+          Professor Tiejun Huang is the director of the lab.His interest is visual information processing and brain-inspired intelligence.
           <a href="/members/tiejun-huang.html">(more)</a>
         </a>
       </div>
@@ -71,9 +69,7 @@ redirect_from:
         </ul>
         
         <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/zhaofei-yu.html">
-          Professor Panagiotis Angeloudis leads TSL and is part of the Centre for Transport Engineering & Modelling at Imperial.
-          His research addresses challenges at the intersection of transportation technology and operations management.
-          &nbsp;&nbsp;&nbsp;
+          Zhaofei Yu is an assistant professor in the lab. His research interests include SNN and brain-inspired intelligence.
           <a href="/members/zhaofei-yu.html">(more)</a>
         </a>
       </div>
