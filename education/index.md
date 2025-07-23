@@ -1,5 +1,6 @@
 ---
 title: Teaching
+title_key: education_title
 nav:
   order: 4
 redirect_from: 

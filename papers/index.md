@@ -1,5 +1,6 @@
 ---
 title: Papers
+title_key: papers_title
 nav:
   order: 3
 redirect_from: 

@@ -1,5 +1,6 @@
 ---
 title: Projects
+title_key: projects_title
 nav:
   order: 2
 ---

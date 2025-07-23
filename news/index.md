@@ -1,5 +1,6 @@
 ---
 title: News
+title_key: news_title
 nav:
   order: 1
   tooltip: Latest news and updates

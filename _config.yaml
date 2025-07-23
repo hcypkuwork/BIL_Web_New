@@ -1,9 +1,11 @@
 # site properties and page defaults
 title: Brain-inspired Lab
+title_key: brain_inspired_lab_title
 share_title: Brain-inspired Lab, Peking University
 subtitle: Peking University
+subtitle_key: brain_inspired_lab_subtitle
 description: "The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing."
-keywords: [brain-inspired, neuromorphic computing, artificial intelligence, neural networks, imperial, Peking University]
+keywords: [brain-inspired, neuromorphic computing, artificial intelligence, neural networks, Peking University]
 author: "Brain-inspired Lab"
 footer: images/Peking_University_footer.jpeg
 proofer: false

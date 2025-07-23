@@ -1,5 +1,7 @@
 ---
+lang: en
 title: Team
+title_key: team_title
 nav:
   order: 2
 redirect_from: 
@@ -10,7 +12,7 @@ redirect_from:
 <div class="team-leaders-grid">
   <!-- Tiejun Huang -->
   <div class="team-leader-card">
-    <h1><a style="text-decoration: none; color: inherit;" href="/members/tiejun-huang.html">Director</a></h1>
+    <h1><a style="text-decoration: none; color: inherit;" href="/members/tiejun-huang.html"> <span data-i18n="Director"></span> </a></h1>
     
     <div class="leader-content">
       <div class="leader-image">
@@ -22,8 +24,8 @@ redirect_from:
         </a>
         
         <!-- 名称和职位移到图像下方 -->
-        <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem">Tiejun Huang</div>
-        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px">Professor & Lab Director</div>
+        <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem"> <span data-i18n="Tiejun Huang"></span> </div>
+        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"> <span data-i18n="Professor & Lab Director"></span> </div>
       </div>
       
       <div class="leader-info">
@@ -35,7 +37,7 @@ redirect_from:
         </ul>
         
         <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/tiejun-huang.html">
-          Professor Tiejun Huang is the director of the lab.His interest is visual information processing and brain-inspired intelligence.
+          <span data-i18n="Tiejun-Huang summary"></span>
           <a href="/members/tiejun-huang.html">(more)</a>
         </a>
       </div>

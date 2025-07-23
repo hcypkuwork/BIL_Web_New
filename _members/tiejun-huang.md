@@ -8,7 +8,7 @@ education:
   - "Wuhan Polytechnic University (now Wuhan University of Technology): Master of Industrial Automation (1992-1995)"
   - "Wuhan Polytechnic University (now Wuhan University of Technology): Bachelor of Computer Application (1988-1992)"
 affiliations: 
-  - Dean of Beijing Academy of Artificial Intelligence
+  - <span data-i18n="Tiejun Huang affiliation 1">Dean of Beijing Academy of Artificial Intelligence</span>
   - Director of the Digital Media Research Institute of Peking University
   - Executive Deputy Director of the National Engineering Research Center for Video and Visual Technology
 # aliases:

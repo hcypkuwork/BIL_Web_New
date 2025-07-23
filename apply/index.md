@@ -1,5 +1,6 @@
 ---
 title: Apply
+title_key: apply_title
 nav:
   order: 5
 redirect_from: 

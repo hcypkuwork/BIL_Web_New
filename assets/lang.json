@@ -1,0 +1,38 @@
+{
+    "en": {
+        "brain_inspired_lab_title": "Brain-inspired Lab",
+        "brain_inspired_lab_subtitle": "Peking University",
+        "apply_title": "Apply",
+        "Team": "Team",
+        "team_title": "Team",
+        "Home": "Home",
+        "education_title": "Teaching",
+        "news_title": "News",
+        "papers_title": "Publications",
+        "projects_title": "Projects and Datasets",
+        "contact_title": "Contact",
+        "Director": "Director",
+        "Tiejun Huang": "Tiejun Huang",
+        "Professor & Lab Director": "Professor & Lab Director",
+        "Tiejun-Huang summary": "Professor Tiejun Huang is the director of the lab.His interest is visual information processing and brain-inspired intelligence.",
+        "Tiejun Huang affiliation 1": "Dean of Beijing Academy of Artificial Intelligence"
+    },
+    "zh": {
+        "brain_inspired_lab_title": "脑启发实验室",
+        "brain_inspired_lab_subtitle": "北京大学",
+        "apply_title": "申请加入",
+        "Team": "团队",
+        "team_title": "团队",
+        "Home": "首页",
+        "education_title": "授课",
+        "news_title": "新闻",
+        "papers_title": "论文",
+        "projects_title": "项目和数据集",
+        "contact_title": "联系我们",
+        "Director": "主任",
+        "Tiejun Huang": "黄铁军",
+        "Professor & Lab Director": "教授 & 实验室主任",
+        "Tiejun-Huang summary": "黄铁军教授是实验室主任，他的研究兴趣是视觉信息处理和脑启发智能。",
+        "Tiejun Huang affiliation 1": "北京人工智能研究院院长"
+    }
+}

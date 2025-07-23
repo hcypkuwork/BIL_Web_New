@@ -1,5 +1,6 @@
 ---
 title: Contact
+title_key: contact_title
 nav:
   order: 9
 ---
