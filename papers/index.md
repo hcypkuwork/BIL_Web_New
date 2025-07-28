@@ -17,11 +17,11 @@ redirect_from:
 
 ---
 
-# {% include icon.html icon="fa-solid fa-file-lines" %}Publications
+# {% include icon.html icon="fa-solid fa-file-lines" %}<span data-i18n="papers_title">Publications</span>
 
-We primarily publish our research in the relevant IEEE Transactions titles. 
+<span data-i18n="papers_1">We primarily publish our research in the relevant IEEE Transactions titles.</span> 
 
-Most of our recent work should be accessible on an Open Access basis. However, if you cannot locate a specific manuscript online, please feel free to contact us.
+<span data-i18n="papers_2">Most of our recent work should be accessible on an Open Access basis. However, if you cannot locate a specific manuscript online, please feel free to contact us.</span>
 
 
 
@@ -34,7 +34,7 @@ Most of our recent work should be accessible on an Open Access basis. However, i
 {% include list.html data="citations" component="citation"  style="" %}
 
 {% capture content %}
-For a list of our research initiatives, visit our [projects page](/projects/).
+<span data-i18n="papers_3">For a list of our research initiatives, visit our [projects page](/projects/).</span>
 {% endcapture %}
 
 {% include more-info.html 

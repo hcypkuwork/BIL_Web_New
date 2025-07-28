@@ -5,15 +5,15 @@ nav:
   order: 9
 ---
 
-# {% include icon.html icon="fa-solid fa-envelope" %} Contact
+# {% include icon.html icon="fa-solid fa-envelope" %} <span data-i18n="contact_title">Contact</span>
 
-Our facilities are located at the Science Building 2, in the Yan Yuan Campus of Peking University. 
+<span data-i18n="contact_1">Our facilities are located at the Science Building 2, in the Yan Yuan Campus of Peking University. </span>
 
-Our full address is:
+<span data-i18n="contact_2">Our full address is:</span>
 
-Science Building 2, Room 2728 <br>
-Yan Yuan Campus, Peking University <br>
-Beijing 100871, China 
+<span data-i18n="contact_3">Science Building 2, Room 2728</span> <br>
+<span data-i18n="contact_4">Yan Yuan Campus, Peking University</span> <br>
+<span data-i18n="contact_5">Beijing 100871, China</span> 
 
 
 
@@ -21,7 +21,7 @@ Beijing 100871, China
 {%
   include button.html
   type="email"
-  text="yuzf12@pku.edu.cn"
+  text='<span data-i18n="contact_button_1">"yuzf12@pku.edu.cn"</span>'
   link="yuzf12@pku.edu.cn"
   style="background:rgb(215, 18, 18); color: #fff;"
 %}
@@ -41,7 +41,7 @@ Beijing 100871, China
 {%
   include figure.html
   image="images/photos/Science Building 2.jpg"
-  caption="Science Building 2,Yan Yuan Campus"
+  caption="Science Building 2, Yan Yuan Campus"
 %}
 
 {% endcapture %}

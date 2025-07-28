@@ -34,7 +34,8 @@
         <span class="title" data-i18n="{{ site.title_key | default: site.title | downcase }}">{{ site.title }}</span>
         {% endif %}
         {% if site.subtitle and site.show-subtitle != false %}
-        <span class="subtitle" data-i18n="{{ site.subtitle_key | default: site.subtitle | downcase }}">{{ site.subtitle }}</span>
+        <span class="subtitle" data-i18n="{{ site.subtitle_key | default: site.subtitle | downcase }}">{{ site.subtitle
+          }}</span>
         {% endif %}
       </span>
       {% endif %}
@@ -64,8 +65,8 @@
     {% endfor %}
 
     <div id="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 9999; font-size: 2rem;">
-      <span id="flag-zh" class="lang-flag" style="cursor:pointer; margin-right: 8px;" title="中文">🇨🇳</span>
-      <span id="flag-en" class="lang-flag" style="cursor:pointer;" title="English">🇺🇸</span>
+      <span id="flag-zh" class="lang-flag" style="cursor:pointer; margin-right: 10px;" title="中文">🇨🇳</span>
+      <span id="flag-en" class="lang-flag" style="cursor:pointer;" title="English">🇬🇧</span>
     </div>
   </nav>
 </header>

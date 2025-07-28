@@ -30,24 +30,24 @@ redirect_from:
 ---
 
 
-The **Brain-Inspired Laboratory** at **Peking University** focuses on brain-inspired computing,spiking neural networks ,computational neuroscience and ai4science.
-Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affiliated with the **College of Artificial Intelligence**.
+<span data-i18n="home_1">The **Brain-Inspired Laboratory** at **Peking University** focuses on brain-inspired computing,spiking neural networks ,computational neuroscience and ai4science.</span>
+<span data-i18n="home_2">Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affiliated with the **College of Artificial Intelligence**.</span>
 
 {% include section.html %}
 
-#### Our work
+#### <span data-i18n="home_3">Our work</span>
 {% include project-carousel.html %}
 
 {% include section.html %}
 
-#### Our news
+#### <span data-i18n="home_4">Our news</span>
 
 {% include news-list.html style="simple" limit=5 prefix="home-" hide_hidden=true %}
 
 {%
   include button.html
   link="news"
-  text="View all news"
+  text='<span data-i18n="home_button_1">"View all news"</span>'
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -55,7 +55,7 @@ Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affil
 
 {% include section.html %}
 
-#### Our priorities
+#### <span data-i18n="home_5">Our priorities</span>
 
 {% include list.html component="card" data="themes" filters="group: theme" style="small" %}
 
@@ -63,14 +63,14 @@ Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affil
 {% include section.html %}
 
 
-#### Our publications
+#### <span data-i18n="home_6">Our publications</span>
 
 {% include list.html data="citations"  filters="group: featured" hideyear="true" component="citation"  %}
 
 {%
   include button.html
   link="papers"
-  text="All publications"
+  text='<span data-i18n="home_button_2">"All publications"</span>'
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -79,18 +79,18 @@ Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affil
 
 {% capture text_team %}
 
-Our laboratory is an academic community rooted in **freedom and inclusivity**, driven by **unity and innovation**. From the spark of inspiration to scientific breakthroughs, we always stand side by side.
+<span data-i18n="home_7">Our laboratory is an academic community rooted in **freedom and inclusivity**, driven by **unity and innovation**. From the spark of inspiration to scientific breakthroughs, we always stand side by side.</span>
 
-Backed by first-class research capabilities, we delve into cutting-edge fields, equipped with top-tier experimental facilities and academic resources to provide a solid foundation for exploring the unknown. Leveraging extensive social connections and international cooperation networks, we break down geographical and disciplinary boundaries, enabling students to deeply participate in transnational research projects, engage with world-leading scholars, and grasp the pulse of academic frontiers from a global perspective.
+<span data-i18n="home_8">Backed by first-class research capabilities, we delve into cutting-edge fields, equipped with top-tier experimental facilities and academic resources to provide a solid foundation for exploring the unknown. Leveraging extensive social connections and international cooperation networks, we break down geographical and disciplinary boundaries, enabling students to deeply participate in transnational research projects, engage with world-leading scholars, and grasp the pulse of academic frontiers from a global perspective.</span>
 
 <!-- Regardless of your background or academic aspirations, we welcome you with an equal and open attitude. Here, your **potential will be unlocked**, and your **talents will be cherished**—let us jointly write our own chapter of innovation in the vast ocean of scientific research. -->
 
-If you are interested, please feel free to contact us and join this academic journey!
+<span data-i18n="home_9">If you are interested, please feel free to contact us and join this academic journey!</span>
 
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text='<span data-i18n="home_button_3">"Meet our team"</span>'
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -99,7 +99,7 @@ If you are interested, please feel free to contact us and join this academic jou
 {%
   include button.html
   link="apply"
-  text="Join us"
+  text='<span data-i18n="home_button_4">"Join us"</span>'
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -123,7 +123,7 @@ If you are interested, please feel free to contact us and join this academic jou
 
 {% include section.html %}
 
-#### Our funders
+#### <span data-i18n="home_10">Our funders</span>
 
 
 {% capture col1 %}
