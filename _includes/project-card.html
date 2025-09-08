@@ -1,6 +1,7 @@
 {% capture project_markup %}
 <div id="project-{{ forloop.index }}" class="project-card">
-  <h2 class="project-title">{{ include.project.title }}</h2>
+  {% assign slug = include.project.title | slugify %}
+  <h2 class="project-title"><a href="/project/{{ slug }}/">{{ include.project.title }}</a></h2>
   
   <div class="project-content">
     <div class="project-text">
@@ -21,7 +22,9 @@
     </div>
     
     <div class="project-image-container">
-      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}" class="project-image">
+      <a href="/project/{{ slug }}/">
+        <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}" class="project-image">
+      </a>
     </div>
   </div>
   

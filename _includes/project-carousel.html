@@ -4,7 +4,8 @@
       {% for project in site.data.projects %}
         {% if project.image %}
           <div class="carousel-item">
-            <a href="/projects/#project-{{ forloop.index }}" class="carousel-link">
+            {% assign slug = project.title | slugify %}
+            <a href="/project/{{ slug }}/" class="carousel-link">
               <div class="carousel-image-container">
                 <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="carousel-image">
               </div>

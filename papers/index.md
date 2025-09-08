@@ -19,7 +19,7 @@ redirect_from:
 
 # {% include icon.html icon="fa-solid fa-file-lines" %}<span data-i18n="papers_title">Publications</span>
 
-<span data-i18n="papers_1">We primarily publish our research in the relevant IEEE Transactions titles.</span> 
+<span data-i18n="papers_1">We primarily publish our research in the relevant IEEE Transactions titles.</span>
 
 <span data-i18n="papers_2">Most of our recent work should be accessible on an Open Access basis. However, if you cannot locate a specific manuscript online, please feel free to contact us.</span>
 

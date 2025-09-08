@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+  </nav>
+
+<div class="project-detail">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.project.image %}
+  <p>
+    <img src="/{{ page.project.image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto;" />
+  </p>
+  {% endif %}
+
+  {% if page.project.tags %}
+  <p>
+    {% for tag in page.project.tags %}
+      <span class="project-tag">{{ tag }}</span>
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  <div class="project-description">
+    {{ page.project.description }}
+  </div>
+
+  {% if page.project.collaborators %}
+  <p><strong>Collaborators:</strong> {{ page.project.collaborators }}</p>
+  {% endif %}
+
+  {% if page.project.collaborator_icons %}
+  <div class="collaborator-icons">
+    {% for icon in page.project.collaborator_icons %}
+      <img src="/{{ icon.image }}" alt="{{ icon.name }}" title="{{ icon.name }}" class="collaborator-icon">
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+
+
